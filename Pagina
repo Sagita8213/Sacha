@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            background-image: url('file:///C:/Users/User/Downloads/kanye-west-albums_093319%20(1).jpg.crdownload'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Enlaces</h2>
+    <ul>
+        <li><a href="https://www.colpuyana.edu.co/">Página del colegio</a></li>
+        <li><a href="https://www.eltiempo.com/">Periódico</a></li>
+        <li><a href="https://www.google.com/">Buscador</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Lq2TmRzg19k">Musica De La Buena</a></li>
+        <li><a href="https://www.youtube.com/watch?v=AqAJLh9wuZ0">Musica De La Mala</a></li>
+        
+    </ul>
+
+    <h3>Imagen</h3>
+    <img src="file:///C:/Users/User/Downloads/1-18802_tumblr-static-640-v2-kanye-west-hands-up.png" alt="Mi papi" width="350 height="225">
+
+    <h4>Bloques de movimiento</h4>
+    <marquee behavior="scroll" direction="right">Kanye</marquee>
+    <marquee behavior="scroll" direction="left">West</marquee>
+    <marquee behavior="scroll" direction="up">Kanye West</marquee>
+    <marquee behavior="scroll" direction="down">Ye</marquee>
+
+ 
+<h1>Caracteres Especiales</h1>
+    <p>A continuación, se muestran 15 caracteres especiales:</p>
+    <ul>
+        <li>&amp; - Ampersand (y comercial)</li>
+        <li>&lt; - Menor que</li>
+        <li>&gt; - Mayor que</li>
+        <li>&ldquo; - Comillas dobles izquierdas</li>
+        <li>&rdquo; - Comillas dobles derechas</li>
+        <li>&lsquo; - Comillas simples izquierdas</li>
+        <li>&rsquo; - Comillas simples derechas</li>
+        <li>&copy; - Símbolo de derechos de autor</li>
+        <li>&reg; - Símbolo de marca registrada</li>
+        <li>&euro; - Símbolo del Euro</li>
+        <li>&pound; - Símbolo de la libra esterlina</li>
+        <li>&yen; - Símbolo del Yen</li>
+        <li>&sect; - Sección</li>
+        <li>&deg; - Grado</li>
+        <li>&para; - Signo de pilcrow (¶)</li>
+    </ul>
+</body>
+</html>
